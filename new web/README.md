@@ -1,6 +1,6 @@
-Student Name: [IVWANANJI KABWE]
-Student ID: [2511383417]
-GitHub Repository: [https://github.com/ivwananjikabwe26-sketch]
+Student Name: [COLLEEN KAMISA]
+Student ID: [2511394969]
+GitHub Repository: [https://github.com/chishimbakaminsa-cmd]
 
 # Colleen Kamisa — Personal Portfolio Website
 
