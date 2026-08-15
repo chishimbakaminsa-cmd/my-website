@@ -1,0 +1,140 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+    <header id="top">
+        <h1>COLLEEN KAMISA</h1>
+        <p><em>Student &mdash; Web Developer &mdash; Lifelong Learner</em></p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <article>
+                <p>
+                    Hello! I'm a student studying web development at
+                    <abbr title="Information and Communications University">ICU</abbr>.
+                    This website was built entirely with <strong>semantic HTML</strong>
+                    as part of my HTML Website Development assignment.
+                </p>
+                <p>
+                    I'm passionate about technology, and in my free time I enjoy
+                    <mark>coding</mark>, reading, and learning new things.
+                </p>
+                <blockquote cite="https://example.com/quotes">
+                    <p>"The best way to learn web development is to build real projects."</p>
+                </blockquote>
+            </article>
+        </section>
+        <hr>
+        <section id="skills" class="content-section">
+            <h2>My Skills</h2>
+            <article>
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML5 &amp; Semantic Markup</li>
+                    <li>CSS3 (currently learning)</li>
+                    <li>Basic JavaScript</li>
+                    <li>Git &amp; GitHub</li>
+                </ul>
+                <h3>Skill Progress</h3>
+                <label for="html-skill">HTML:</label>
+                <progress id="html-skill" value="80" max="100">80%</progress><br>
+                <label for="css-skill">CSS:</label>
+                <progress id="css-skill" value="50" max="100">50%</progress>
+                <h3>Languages I Speak</h3>
+                <table border="1">
+                    <caption>Language Proficiency</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Language</th>
+                            <th scope="col">Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>English</td>
+                            <td>Fluent</td>
+                        </tr>
+                        <tr>
+                            <td>Bemba</td>
+                            <td>Intermediate</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <hr>
+        <section id="projects" class="content-section">
+            <h2>My Projects</h2>
+            <article class="project">
+                <h3>Project 1: Personal Portfolio</h3>
+                <p>
+                    This very website! Built using only HTML to practice semantic
+                    structure and element usage. Learn more on
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>.
+                </p>
+                <details>
+                    <summary>Click to see project details</summary>
+                    <p>Built with plain HTML, version-controlled with Git, and hosted on GitHub Pages.</p>
+                </details>
+            </article>
+            <article class="project">
+                <h3>Project 2: To-Do List (Concept)</h3>
+                <p>A simple task tracker I plan to build next using HTML forms and JavaScript.</p>
+                <form action="#" method="get">
+                    <fieldset>
+                        <legend>Quick Feedback Form</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="chishimbakaminsa@gmail.com">
+                        <br><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="30" placeholder="Leave a comment..."></textarea>
+                        <br><br>
+                        <label for="rating">How do you like this site?</label>
+                        <select id="rating" name="rating">
+                            <option value="great">Great</option>
+                            <option value="good" selected>Good</option>
+                            <option value="okay">Okay</option>
+                        </select>
+                        <br><br>
+                        <input type="checkbox" id="subscribe" name="subscribe" checked>
+                        <label for="subscribe">Subscribe to updates</label>
+                        <br><br>
+                        <button type="submit">Submit Feedback</button>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+        <hr>
+        <section id="gallery" class="content-section">
+        </section>
+        <hr>
+    </main>
+    <hr>
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <address>
+            Email: <a href="chishimbakaminsa@gmail.com">chishimbakaminsa@gmail.com</a><br>
+            Location: lusaka, zambia
+        </address>
+        <p>
+            <a href="#top">Back to top &uarr;</a>
+        </p>
+        <p><small>&copy; 2026 colleen. All rights reserved.</small></p>
+    </footer>
+</body>
+</html>
